@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href="/img/favicon.png" />
+      <title>Editora Corvo</title>
+      <link rel="stylesheet" href="/css/language-selector.css?v=3.5.1.1" type="text/css" media="all" />
+      <style type="text/css">
+         img.wp-smiley,
+         img.emoji {
+         display: inline !important;
+         border: none !important;
+         box-shadow: none !important;
+         height: 1em !important;
+         width: 1em !important;
+         margin: 0 .07em !important;
+         vertical-align: -0.1em !important;
+         background: none !important;
+         padding: 0 !important;
+         }
+      </style>
+      <link rel='stylesheet' id='hc-bootstrap-css'  href='/css/bootstrap.css?ver=1.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='hc-style-css'  href='/css/style.css?ver=1.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='hc-animations-css'  href='/css/animations.css?ver=1.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='hc-scripts/flexslider/flexslider.css-css'  href='/css/flexslider.css?ver=1.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='hc-css/content-box.css-css'  href='/css/content-box.css?ver=1.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='hc-scripts/magnific-popup.css-css'  href='/css/magnific-popup.css?ver=1.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='hc-css/components.css-css'  href='/css/components.css?ver=1.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='icons-mind-line-css'  href='/css/line-icons.min.css?ver=1.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='hc_css_skin-css'  href='/css/skin.css?ver=1.0' type='text/css' media='all' />
+      <style id='hc_css_skin-inline-css' type='text/css'>
+         .dropdown-menu > li > a:before, .navbar-nav > li.dropdown > a:after, .nav-pills > li > a:hover, .fa-li, i.icon, .counter-inverse .icon-box-cell p, i.square, i.circle, .niche-box-testimonails > h5 span, .timeline small, .comment-list .name span, a.collapse-button:hover, li.panel-item .fa-li, .advs-box .btn:hover, .fullpage-menu li.active i, .fullpage-menu li.active span, .fullpage-menu li:hover i, .fullpage-menu li:hover span, .social-group i.circle, .icon-list .list-item i, .adv-img i, .accordion-list .list-group-item > a:hover, .side-menu > li.active > a > i, .navbar-default .navbar-nav > .active > a, .adv-img-full-content p.sub {
+         color: rgb(38, 172, 227);
+         }
+         .pricing-table .pricing-price, .list-group-item.pricing-price:hover,.woocommerce div.product p.price, .woocommerce div.product span.price, .nav-tabs > li:hover > a, .nav-tabs > li:hover > a i, .nav-tabs > li.active > a, .nav-tabs > li.active > a i, .list-group-item:not(.active):hover > a, .icon-menu .navbar-collapse ul.nav > li > a:hover i, header .btn-search:hover, .nav.ms-minimal > li.active > a, .icon-background.boxed-inverse:not(.bg-color) .i-background, .icon-box-cell > i, .dropdown.btn-group .active > a, .bootgrid-header .dropdown-item:hover, .navbar-default .navbar-nav > li:hover > a, .white .box-side-icon-small .icon-box i, .btn-text:hover, .side-menu .active > a, .sidebar-nav a:hover, .sidebar-nav a:focus, .sidebar-nav a:active, .navbar-default .navbar-nav > .active > a:hover, .advs-box-top-icon .icon, .adv-img-full-content i.main-icon, .advs-box-multiple.boxed div i, .footer-minimal .footer-title, .white .text-color, .text-color, .boxed .circle-button:hover i, .btn-text i, .tag-row i, .pagination > .active > a, .pagination > li > a:hover, .datepicker-panel > ul > li:hover, .adv-img-button-content .caption i, .social-line .social-group i.circle:hover, .white .icon-box-cell > i.square, .white .icon-box-cell > i.circle {
+         color: rgb(38, 172, 227) !important;
+         }
+         [class*="col-md-"].boxed, .fa-angle-up.scroll-top, .call-action-box,.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .white .img-box.adv-img-half-content .caption, .ul-dots li:before, .flex-control-paging li a.flex-active, .flex-control-paging li a:hover, .progress-bar, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+         background-color: rgb(38, 172, 227) !important;
+         }
+         .social-group i.circle, .social-button i.circle, .bg-color, .home-fullpage p, .home-fullpage a:hover, .timeline > li:hover > .timeline-badge, ul.side-menu li.active:before, #twosides-menu, .subline-bar, .accordion-list .list-group-item:before, .advs-box-multiple div.circle, .advs-box.boxed .advs-box-content, .advs-box.boxed, .box-social-page, .btn, .circle-button, header .btn, .navbar-inner .nav:not(.ms-rounded) li a:before, .white .btn, .timeline > li:hover > .timeline-badge {
+         background-color: rgb(38, 172, 227);
+         }
+         .popup-banner.full-width-top, .popup-banner.full-width-bottom, .subline-bar li:hover,.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .btn:hover, header .btn:hover {
+         background-color: rgb(31, 156, 207) !important;
+         }
+         div.adv-img-side-content .btn:hover, .nav-pills > li.active > a, .mega-menu .nav-tabs li.active, .list-items .list-item span, .timeline > li > .timeline-badge, div.adv-img-side-content .btn:hover i, .nav.inner.ms-rounded li a:hover, .nav.inner.ms-rounded li.active a, .datepicker-panel > ul > li.picked, .datepicker-panel > ul > li.picked:hover {
+         border-color: rgb(38, 172, 227) !important;
+         color: rgb(38, 172, 227) !important;
+         }
+         .tab-box > .panel, .tab-box > .panel-box > .panel, .niche-box-team .content-box hr, hr.e, .datepicker-top-left, .datepicker-top-right {
+         border-top-color: rgb(38, 172, 227) !important;
+         }
+         .tab-box.right .panel-box {
+         border-right-color: rgb(38, 172, 227) !important;
+         }
+         .tab-box.left .nav-tabs, .mi-menu .sidebar-nav, .tab-box.left .panel-box, .img-box.adv-img-half-content .caption {
+         border-left-color: rgb(38, 172, 227) !important;
+         }
+         .accordion-list .list-group-item:hover, .list-items .list-item:hover, .title-modern h2, .tab-box.inverse .panel, .datepicker-top-left:before, .datepicker-top-right:before {
+         border-bottom-color: rgb(38, 172, 227) !important;
+         }
+         .white .quote-author, .white .icon-list .list-item i {
+         color: rgb(38, 172, 227);
+         }
+         .white .pagination > li > a:hover, .white .pagination > .active > a, .white.advs-box-blog .tag-row span:after, .white.niche-box-post .tag-row i, .white.niche-box-post .tag-row span:after, header.bg-transparent .navbar-default .navbar-nav > li.active > a {
+         color: rgb(38, 172, 227) !important;
+         }
+         .white.btn:hover, .niche-box-post.boxed .block-infos {
+         border-color: rgb(38, 172, 227) !important;
+         }
+         .white .load-more-maso:hover {
+         color: rgb(38, 172, 227) !important;
+         border-color: rgb(38, 172, 227) !important;
+         }
+         .header-slider .flex-control-paging li a.flex-active, .header-slider .flex-control-paging li a:hover {
+         background-color: rgb(38, 172, 227) !important;
+         }
+         .half-side.right, .img-box.adv-img-half-content .caption {
+         background: rgb(38, 172, 227) !important;
+         }
+         @media (max-width: 992px) {
+         header.bg-transparent .navbar-default .navbar-nav > li.active > a {
+         color: rgb(38, 172, 227) !important;
+         }
+         }
+      </style>
+      <link rel='stylesheet' id='y_theme_css_skin_font-css'  href='https://fonts.googleapis.com/css?family=Droid+Serif%3A400i%7COpen+Sans%3A400%2C600%2C700%2C800&#038;ver=1.0' type='text/css' media='all' />
+      <script type='text/javascript' src='/js/jquery.js?ver=1.12.4'></script>
+      <script type='text/javascript' src='/js/jquery-migrate.min.js?ver=1.4.1'></script>
+      <meta name="generator" content="WPML ver:3.5.1.1 stt:1,4,3,27;" />
+      <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+   </head>
+   <body class="page-template-default page page-id-3024" >
+      <div id="preloader"></div>
+      <header class="scroll-change fixed-top bg-transparent menu-transparent "
+         data-menu-anima=fade-in >
+         <div class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top " role="navigation">
+            <div class="navbar navbar-main ">
+               <div class="container">
+                  <div class="navbar-header">
+                     <button type="button" class="navbar-toggle">
+                     <i class="fa fa-bars"></i>
+                     </button>
+                     <a class='navbar-brand scroll-hide' href='http://themes.framework-y.com/elon'><img src='/img/logo.png' height="40" width="196" alt='' style=''/></a>
+                     <a class='navbar-brand scroll-show' href='http://themes.framework-y.com/elon'><img src='/img/logo.png' height="40" width="196" alt='' style='' /></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </div>
+      </header>
+      <div id="section_5ZtkF" class="section-item section-empty  no-paddings no-margins   "  style="">
+         <div class="content " style="">
+            <div class="row ">
+               <div id="column_agsQZ" class="hc_column_cnt col-md-12   " style="" >
+                  <div class="row">
+                     <div class="col-md-12 hc_adv_slider_cnt">
+                        <div class="section-slider  full-screen-size  home-slider ">
+                           <div class="flexslider advanced-slider slider "
+                              data-options="" style="" >
+                              <ul class="slides">
+                                 <li data-slider-anima="fade-left">
+                                    <div class="section-slide">
+                                       <div class="bg-cover" style="background-image:url(/img/hd-32.jpg)"></div>
+                                       <div class="container">
+                                          <div class="container-middle">
+                                             <div class="container-inner">
+                                                <div id="column_u5TOi" class="hc_column_cnt col-md-12  vertical-row  " style="" >
+                                                   <div class="row">
+                                                      <div id="column_YZZQL" class="hc_column_cnt col-md-4   anima anima-fade-left" style="" >
+                                                         <div class="row">
+                                                            <div class="col-md-12 hc_space_cnt">
+                                                               <hr class="space   visible-xs-block   "  />
+                                                            </div>
+                                                            <div class="col-md-12 hc_title_tag_cnt">
+                                                               <h2 class=' text-xxl   ' style=''>LOREM IPSUM</h2>
+                                                            </div>
+                                                            <div class="col-md-12 hc_space_cnt">
+                                                               <hr class="space s    "  />
+                                                            </div>
+                                                            <div class="col-md-12 hc_text_block_cnt">
+                                                               <div class=' text-m  font-2 ' style=''>Mauris ut scelerisque mauris. Sed ac lobortis libero. Nulla vel ex metus. Etiam ac ligula ornare.</div>
+                                                            </div>
+                                                            <div class="col-md-12 hc_space_cnt">
+                                                               <hr class="space l    "  />
+                                                            </div>
+                                                            <div class="col-md-12 hc_button_cnt">
+                                                               <div id="oNb5t" class="button-cnt    "style="display: block; text-align:left">
+                                                                  <a  class="btn circle-button  scroll-to " href="#">NAM UT TURPIS</a>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                      <div id="column_8VnEt" class="hc_column_cnt col-md-8  hidden-xs  anima anima-fade-right" style="" >
+                                                         <div class="row">
+                                                            <div class="col-md-12 hc_image_cnt"><img class="   " style="" src="/img/mk-ipad.png" height="761" width="881" alt="" /></div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </li>
+                                 <li data-slider-anima="fade-left">
+                                    <div class="section-slide">
+                                       <div class="bg-cover" style="background-image:url(/img/hd-32b.jpg)"></div>
+                                       <div class="container">
+                                          <div class="container-middle">
+                                             <div class="container-inner">
+                                                <div id="column_woURz" class="hc_column_cnt col-md-12  vertical-row  " style="" >
+                                                   <div class="row">
+                                                      <div id="column_httiZ" class="hc_column_cnt col-md-8  hidden-xs  anima anima-fade-left" style="" >
+                                                         <div class="row">
+                                                            <div class="col-md-12 hc_image_cnt"><img class="   " style="" src="/img/mk-iphone.png" height="589" width="706" alt="" /></div>
+                                                         </div>
+                                                      </div>
+                                                      <div id="column_oaf3k" class="hc_column_cnt col-md-4   anima anima-fade-right" style="" >
+                                                         <div class="row">
+                                                            <div class="col-md-12 hc_space_cnt">
+                                                               <hr class="space   visible-xs-block   "  />
+                                                            </div>
+                                                            <div class="col-md-12 hc_title_tag_cnt">
+                                                               <h2 class=' text-xxl   ' style=''>LOREM IPSUM</h2>
+                                                            </div>
+                                                            <div class="col-md-12 hc_space_cnt">
+                                                               <hr class="space m    "  />
+                                                            </div>
+                                                            <div class="col-md-12 hc_text_block_cnt">
+                                                               <div class=' text-m  font-2 ' style=''>Nunc pellentesque pulvinar nisi, vitae convallis ante lacinia ornare. Donec ultrices congue nulla vel tincidunt.</div>
+                                                            </div>
+                                                            <div class="col-md-12 hc_space_cnt">
+                                                               <hr class="space l    "  />
+                                                            </div>
+                                                            <div class="col-md-12 hc_button_cnt">
+                                                               <div id="vdZON" class="button-cnt    " 
+                                                                  style="display: block; text-align:left">
+                                                                  <a  class="btn circle-button  scroll-to " href="#">NAUM EX LIGULA</a>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_YZyHs" class="section-item section-empty    "  style="">
+         <div class="content " style="">
+            <div class="row ">
+               <div id="column_ehFE2" class="hc_column_cnt col-md-12   " style="" >
+                  <div class="row">
+                     <div class="col-md-12 hc_grid_table_cnt">
+                        <table class="grid-table border-table    " style="">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <div class="advs-box advs-box-top-icon     " 
+                                       data-anima="scale-up" data-trigger="hover" 
+                                       style="">
+                                       <i class="icon circle anima im-photo-2 " ></i>    
+                                       <h3>CAPA</h3>
+                                       <p class="big-text">
+                                          In nec ligula molestie, ultrices metus tempor, auctor neque. Nam dolor neque, iaculis vel pellentesque sit amet, lacinia a turpis.
+                                       </p>
+                                    </div>
+                                 </td>
+                                 <td>
+                                    <div class="advs-box advs-box-top-icon     " 
+                                       data-anima="scale-up" data-trigger="hover" 
+                                       style="">
+                                       <i class="icon circle anima im-film-video " ></i>    
+                                       <h3>BOOKTRAILER</h3>
+                                       <p class="big-text">
+                                          Phasellus faucibus nibh risus, ac vulputate felis semper sed. Nulla quis bibendum. Mauris convallis sollicitudin justo pellentesque.    
+                                       </p>
+                                    </div>
+                                 </td>
+                                 <td>
+                                    <div class="advs-box advs-box-top-icon     " 
+                                       data-anima="scale-up" data-trigger="hover" 
+                                       style="">
+                                       <i class="icon circle anima im-strikethrough-text " ></i>    
+                                       <h3>DIAGRAMAÇÃO</h3>
+                                       <p class="big-text">
+                                          Etiam quis luctus mauris, at pellentesque elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent tincidunt.  
+                                       </p>
+                                    </div>
+                                 </td>
+                                 <td>
+                                    <div class="advs-box advs-box-top-icon     " 
+                                       data-anima="scale-up" data-trigger="hover" 
+                                       style="">
+                                       <i class="icon circle anima im-loudspeaker " ></i>    
+                                       <h3>MARKETING</h3>
+                                       <p class="big-text">
+                                          Fusce sit amet tempor tortor. Proin tristique mollis ante, nec egestas tortor accumsan non. Ut malesuada, ante vitae elementum.     
+                                       </p>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <div class="advs-box advs-box-top-icon     " 
+                                       data-anima="scale-up" data-trigger="hover" 
+                                       style="">
+                                       <i class="icon circle anima im-notepad " ></i>    
+                                       <h3>REVISÃO</h3>
+                                       <p class="big-text">
+                                          Praesent maximus ante nec feugiat vestibulum. Phasellus sollicitudin leo eros, eu ultrices nibh dapibus at. Sed sit amet cursus est.    
+                                       </p>
+                                    </div>
+                                 </td>
+                                 <td>
+                                    <div class="advs-box advs-box-top-icon     " 
+                                       data-anima="scale-up" data-trigger="hover" 
+                                       style="">
+                                       <i class="icon circle anima im-brush " ></i>    
+                                       <h3>ILUSTRAÇÃO</h3>
+                                       <p class="big-text">
+                                          Ut elementum, metus in faucibus imperdiet, dolor nunc tincidunt mi, sed placerat elit turpis in justo ectus ut lobortis pharetra.    
+                                       </p>
+                                    </div>
+                                 </td>
+                                 <td>
+                                    <div class="advs-box advs-box-top-icon     " 
+                                       data-anima="scale-up" data-trigger="hover" 
+                                       style="">
+                                       <i class="icon circle anima im-cloud-computer " ></i>    
+                                       <h3>WEBSITE</h3>
+                                       <p class="big-text">
+                                          Integer ligula nibh, interdum non mauris eget, sagittis egestas metus. Proin pretium mi sagittis arcu accumsan finibus. Vivamus pretium.    
+                                       </p>
+                                    </div>
+                                 </td>
+                                 <td>
+                                    <div class="advs-box advs-box-top-icon     " 
+                                       data-anima="scale-up" data-trigger="hover" 
+                                       style="">
+                                       <i class="icon circle anima im-library " ></i>    
+                                       <h3>LOJAS VIRTUAIS</h3>
+                                       <p class="big-text">
+                                          Vivamus id ultricies ligula, id elementum erat. Aenean eget sollicitudin ligula, semper dignissim eros. Ut fermentum nec ante id vestibulum.    
+                                       </p>
+                                    </div>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_IO2SU" class="section-item section-empty  no-paddings no-margins   "  style="">
+         <div class="content " style="">
+            <div class="row ">
+               <div id="column_GeyVk" class="hc_column_cnt col-md-12   " style="" >
+                  <div class="row">
+                     <div class="col-md-12 hc_image_slider_cnt">
+                        <div class="flexslider carousel     nav-inner nav-middle-mobile visible-dir-nav"
+                           data-options="numItems:5,itemMargin:0" style="" >
+                           <ul class="slides">
+                              <li><a class="img-box lightbox" href="/img/project-9.jpg" height="1000" width="1200" data-lightbox-anima='fade-bottom'><img alt="slide" height="1000" width="1200" src="/img/project-9.jpg" /></a></li>
+                              <li><a class="img-box lightbox" href="/img/project-3.jpg" height="1000" width="1200" data-lightbox-anima='fade-bottom'><img alt="slide" height="1000" width="1200" src="/img/project-3.jpg" /></a></li>
+                              <li><a class="img-box lightbox" href="/img/project-4.jpg" height="1000" width="1200" data-lightbox-anima='fade-bottom'><img alt="slide" height="1000" width="1200" src="/img/project-4.jpg" /></a></li>
+                              <li><a class="img-box lightbox" href="/img/project-5.jpg" height="1000" width="1200" data-lightbox-anima='fade-bottom'><img alt="slide" height="1000" width="1200" src="/img/project-5.jpg" /></a></li>
+                              <li><a class="img-box lightbox" href="/img/project-6.jpg" height="1000" width="1200" data-lightbox-anima='fade-bottom'><img alt="slide" height="1000" width="1200" src="/img/project-6.jpg" /></a></li>
+                              <li><a class="img-box lightbox" href="/img/project-7.jpg" height="1000" width="1200" data-lightbox-anima='fade-bottom'><img alt="slide" height="1000" width="1200" src="/img/project-7.jpg" /></a></li>
+                              <li><a class="img-box lightbox" href="/img/project-8.jpg" height="1000" width="1200" data-lightbox-anima='fade-bottom'><img alt="slide" height="1000" width="1200" src="/img/project-8.jpg" /></a></li>
+                              <li><a class="img-box lightbox" href="/img/project-2.jpg" height="1000" width="1200" data-lightbox-anima='fade-bottom'><img alt="slide" height="1000" width="1200" src="/img/project-2.jpg" /></a></li>
+                              <li><a class="img-box lightbox" href="/img/project-1.jpg" height="1000" width="1200" data-lightbox-anima='fade-bottom'><img alt="slide" height="1000" width="1200" src="/img/project-1.jpg" /></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_BfvsG" class="section-item section-empty    " style="">
+         <div class="content container " style="">
+            <div class="row ">
+               <div id="column_0Likg" class="hc_column_cnt col-md-12   " style="">
+                  <div class="row">
+                     <div class="col-md-12 hc_quote_cnt">
+                        <p class="block-quote     quote-1 " style="">
+                           Nulla fringilla turpis eu luctus pellentesque. Maecenas et interdum justo. Phasellus suscipit, nisl nec dapibus facilisis, sem massa posuere libero, sollicitudin bibendum lectus orci sed metus. <span class="quote-author">- Pellentesque vitae</span>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_kGDnL" class="section-item section-empty  section-bg-color   "  style="">
+         <div class="content container " style="">
+            <div class="row ">
+               <div id="column_99S6w" class="hc_column_cnt col-md-3   " style="" >
+                  <div class="row">
+                     <div class="col-md-12 hc_counter_cnt">
+                        <div class="counter-box-icon icon-box icon-box-top-bottom    " style="">
+                           <div class="icon-box-cell">
+                              <i class="icon text-xl im-business-mens " ></i>    
+                           </div>
+                           <div class="icon-box-cell">
+                              <b>
+                              <label class="counter text-xl" data-to="27" >0</label>
+                              </b>
+                              <p class="text-s">AUTORES</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div id="column_ic8c0" class="hc_column_cnt col-md-3   " style="" >
+                  <div class="row">
+                     <div class="col-md-12 hc_counter_cnt">
+                        <div class="counter-box-icon icon-box icon-box-top-bottom    " style="">
+                           <div class="icon-box-cell">
+                              <i class="icon text-xl im-library-2 " ></i>    
+                           </div>
+                           <div class="icon-box-cell">
+                              <b>
+                              <label class="counter text-xl" data-to="43" >0</label>
+                              </b>
+                              <p class="text-s">PROJETOS</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div id="column_Jxzlq" class="hc_column_cnt col-md-3   " style="" >
+                  <div class="row">
+                     <div class="col-md-12 hc_counter_cnt">
+                        <div class="counter-box-icon icon-box icon-box-top-bottom    " style="">
+                           <div class="icon-box-cell">
+                              <i class="icon text-xl im-video-2 " ></i>    
+                           </div>
+                           <div class="icon-box-cell">
+                              <b>
+                              <label class="counter text-xl" data-to="19" >0</label>
+                              </b>
+                              <p class="text-s">BOOKTRAILERS</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div id="column_sP2RO" class="hc_column_cnt col-md-3   " style="" >
+                  <div class="row">
+                     <div class="col-md-12 hc_counter_cnt">
+                        <div class="counter-box-icon icon-box icon-box-top-bottom    " style="">
+                           <div class="icon-box-cell">
+                              <i class="icon text-xl im-bag-coins " ></i>    
+                           </div>
+                           <div class="icon-box-cell">
+                              <b>
+                              <label class="counter text-xl" data-to="3015" >0</label>
+                              </b>
+                              <p class="text-s">LIVROS VENDIDOS</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_rD0DF" class="section-item section-empty    "  style="">
+         <div class="content container " style="">
+            <div class="row vertical-row">
+               <div id="column_OmH8b" class="hc_column_cnt col-md-6   " style="" >
+                  <div class="row">
+                     <div class="col-md-12 hc_image_cnt"><img class="   " style="" src="/img/mk-5.jpg" height="500" width="624" alt="" /></div>
+                  </div>
+               </div>
+               <div id="column_34DcU" class="hc_column_cnt col-md-6   " style="" >
+                  <div class="row">
+                     <div class="col-md-12 hc_icon_box_cnt">
+                        <div class="icon-box text-left    " style="">
+                           <div class="icon-box-cell"><i class="text-xl im-checked-user circle" ></i></div>
+                           <div class="icon-box-cell">
+                              <label class="text-m">CRAS SAPIEN LEO</label>
+                              <p class="-">Ut vestibulum neque ac velit blandit, viverra mollis metus molestie. Quisque varius egestas elit, quis porttitor.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-12 hc_space_cnt">
+                        <hr class="space m    "  />
+                     </div>
+                     <div class="col-md-12 hc_icon_box_cnt">
+                        <div class="icon-box text-left    " style="">
+                           <div class="icon-box-cell"><i class="text-xl im-environmental-2 circle" ></i></div>
+                           <div class="icon-box-cell">
+                              <label class="text-m">PROIN ORNARE LUCTUS</label>
+                              <p class="-">Fusce dignissim, ex nec imperdiet interdum, est erat luctus diam, ac sagittis metus purus at elit. Integer luctus.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-12 hc_space_cnt">
+                        <hr class="space m    "  />
+                     </div>
+                     <div class="col-md-12 hc_icon_box_cnt">
+                        <div class="icon-box text-left    " style="">
+                           <div class="icon-box-cell"><i class="text-xl im-equalizer circle" ></i></div>
+                           <div class="icon-box-cell">
+                              <label class="text-m">PRAESENT CONGUE</label>
+                              <p class="-">Maecenas condimentum ligula nec odio imperdiet, egestas diam efficitur. Phasellus fringilla purus interdum interdum.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_osXXf" class="section-item section-bg-image parallax-window     "
+         data-parallax="scroll" data-natural-height="1080" data-natural-width="1920" data-position="top" data-image-src="/img/hd-32.jpg"    data-sub-height="" style="">
+         <div class="content container " style="">
+            <div class="row ">
+               <div id="column_In0yQ" class="hc_column_cnt col-md-12  text-center  " style="" >
+                  <div class="row">
+                     <div class="col-md-12 hc_subtitle_cnt">
+                        <div class="title-base     text-center" style="">
+                           <hr />
+                           <h2>LANÇAMENTO</h2>
+                           <p>Nossa próxima antologia será lançanda em:</p>
+                        </div>
+                     </div>
+                     <div class="col-md-12 hc_space_cnt">
+                        <hr class="space     "  />
+                     </div>
+                     <div class="col-md-12 hc_countdown_cnt">
+                        <div class="countdown    " data-time="02/21/2018 10:30:00" data-utc-offset="" style="">
+                           <span class="countdown-text"> </span>
+                           <div><span class="days countdown-values text-l">00</span><br><span class="countdown-label default"> Dias</span></div>
+                           <div><span class="hours countdown-values text-l">00</span><br><span class="countdown-label default"> Horas</span></div>
+                           <div><span class="minutes countdown-values text-l">00</span><br><span class="countdown-label default"> Minutos</span></div>
+                           <div><span class="seconds countdown-values text-l">00</span><br><span class="countdown-label default"> Segundos</span></div>
+                        </div>
+                     </div>
+                     <div class="col-md-12 hc_space_cnt">
+                        <hr class="space     "  />
+                     </div>
+                     <div class="col-md-12 hc_text_block_cnt">
+                        <div class='   ' style=''>Praesent congue, nisi consectetur ultricies efficitur, velit leo varius purus, nec varius tortor nunc in purus. In consequat non mi vitae auctor. Etiam volutpat mi orci, at elementum diam lacinia in. Nunc sed imperdiet diam. Donec sit amet rutrum justo.</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_WX47v" class="section-item section-empty    "  style="">
+         <div class="content container " style="">
+            <div class="row ">
+               <div id="column_dAhe6" class="hc_column_cnt col-md-12   " style="" >
+                  <div class="row">
+                     <div class="col-md-12 hc_subtitle_cnt">
+                        <div class="title-base     text-left" style="">
+                           <hr />
+                           <h2>PERGUNTAS E RESPOSTAS</h2>
+                           <p>Nam feugiat est libero, at vehicula est condimentum nec.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-12 hc_space_cnt">
+                        <hr class="space m    "  />
+                     </div>
+                     <div id="column_dfjPR" class="hc_column_cnt col-md-6   " style="" >
+                        <div class="row">
+                           <div class="col-md-12 hc_tab_cnt">
+                              <div class="tab-box left     pills" data-tab-anima='fade-right' style="">
+                                 <ul class="nav    col-md-4 nav-pills">
+                                    <li class='active'><a>  MAECENAS </a></li>
+                                    <li><a> VIVERRA  </a></li>
+                                    <li><a> SCELERISQUE </a></li>
+                                 </ul>
+                                 <div class="panel-box col-md-8">
+                                    <div class="panel active">
+                                       <div class='   ' style=''>A exercitationem eu minus autem minim provident dignissimos ea. In suspendisse pariatur, perspiciatis viverra assumenda platea non aliquid porttitor ratione maecenas rerumdelectus dignissimos impedit.</div>
+                                       <div class="clear"></div>
+                                    </div>
+                                    <div class="panel ">
+                                       <div class='   ' style=''>A exercitationem eu minus autem minim provident dignissimos ea. In suspendisse pariatur, perspiciatis viverra assumenda platea non aliquid porttitor ratione maecenas rerumdelectus dignissimos impedit.</div>
+                                       <div class="clear"></div>
+                                    </div>
+                                    <div class="panel ">
+                                       <div class='   ' style=''>A exercitationem eu minus autem minim provident dignissimos ea. In suspendisse pariatur, perspiciatis viverra assumenda platea non aliquid porttitor ratione maecenas rerumdelectus dignissimos impedit.</div>
+                                       <div class="clear"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="column_YktiI" class="hc_column_cnt col-md-6   " style="" >
+                        <div class="row">
+                           <div class="col-md-12 hc_tab_cnt">
+                              <div class="tab-box left     pills" data-tab-anima='fade-right' style="">
+                                 <ul class="nav    col-md-4 nav-pills">
+                                    <li class='active'><a> CURABITUR </a></li>
+                                    <li><a> COMSECTETUR  </a></li>
+                                    <li><a> PRAESENT </a></li>
+                                 </ul>
+                                 <div class="panel-box col-md-8">
+                                    <div class="panel active">
+                                       <div class='   ' style=''>A exercitationem eu minus autem minim provident dignissimos ea. In suspendisse pariatur, perspiciatis viverra assumenda platea non aliquid porttitor ratione maecenas rerumdelectus dignissimos impedit.</div>
+                                       <div class="clear"></div>
+                                    </div>
+                                    <div class="panel ">
+                                       <div class='   ' style=''>A exercitationem eu minus autem minim provident dignissimos ea. In suspendisse pariatur, perspiciatis viverra assumenda platea non aliquid porttitor ratione maecenas rerumdelectus dignissimos impedit.</div>
+                                       <div class="clear"></div>
+                                    </div>
+                                    <div class="panel ">
+                                       <div class='   ' style=''>A exercitationem eu minus autem minim provident dignissimos ea. In suspendisse pariatur, perspiciatis viverra assumenda platea non aliquid porttitor ratione maecenas rerumdelectus dignissimos impedit.</div>
+                                       <div class="clear"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div id="comments" class="comments-area">
+         </div>
+      </div>
+      <footer class=" " >
+         <div class="content">
+            <div class="row copy-row">
+               <div class="col-md-12 copy-text"> Editora Corvo © 2017 </div>
+            </div>
+         </div>
+      </footer>
+      <script type='text/javascript' src='/js/script.js?ver=1.0'></script>
+      <script type='text/javascript' src='/js/bootstrap.min.js?ver=1.0'></script>
+      <script type='text/javascript' src='/js/jquery.flexslider-min.js?ver=1.0'></script>
+      <script type='text/javascript' src='/js/jquery.magnific-popup.min.js?ver=1.0'></script>
+      <script type='text/javascript' src='/js/google.maps.min.js?ver=1.0'></script>
+      <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?sensor=false&#038;key=AIzaSyCp69VyBGUlCdAAsfgcRvf3Pg57B6vNHd8&#038;ver=1.0&#038;sensor=false&#038;key=AIzaSyCp69VyBGUlCdAAsfgcRvf3Pg57B6vNHd8'></script>
+      <script type='text/javascript' src='/js/jquery.progress-counter.js?ver=1.0'></script>
+      <script type='text/javascript' src='/js/jquery.tab-accordion.js?ver=1.0'></script>
+      <script type='text/javascript' src='/js/parallax.min.js?ver=1.0'></script>
+      <script type='text/javascript' src='/js/wp-embed.min.js?ver=4.7.2'></script>
+      <script type='text/javascript' src='/js/sitepress.js?ver=4.7.2'></script>
+   </body>
+</html>
